@@ -5,10 +5,9 @@ html {
   font-family: roboto, sans-serif;
 }
 
-/* * {
-  margin: 0 auto;
+* {
+  margin: 0;
 }
- */
 
 .container {
   background-color: rgba(54, 181, 54, 0.689);
@@ -30,10 +29,14 @@ section {
   background-color: rgb(254, 254, 62);
   display: flex;
   justify-content: space-between;
+  flex: 1;
 }
 
-a:link {
+a:link,
+a:visited,
+a:active {
   text-decoration: none;
+  color: #fff;
 }
 
 a:hover {
@@ -58,4 +61,8 @@ li {
 
 .tachado {
   text-decoration: line-through;
+}
+
+input [type="text"] {
+  box-shadow: 50px;
 }
