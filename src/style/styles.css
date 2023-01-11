@@ -5,13 +5,15 @@ html {
   font-family: roboto, sans-serif;
 }
 
-* {
+/* * {
   margin: 0 auto;
 }
+ */
 
 .container {
   background-color: rgba(54, 181, 54, 0.689);
   display: flex;
+  justify-content: space-between;
   flex-direction: row-reverse;
   padding: 20px;
 }
@@ -20,12 +22,40 @@ span {
   padding: 20px;
   background-color: aquamarine;
   display: flex;
-  justify-content: flex-end;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 section {
   padding: 20px;
-  background-color: red;
+  background-color: rgb(254, 254, 62);
   display: flex;
+  justify-content: space-between;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: aquamarine;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* input[type="checkbox"] {
+  border-radius: 10px;
+}
+ */
+
+.tachado {
+  text-decoration: line-through;
 }
