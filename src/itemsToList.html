@@ -11,15 +11,43 @@
 </head>
 
 <body>
-  <header>
-    <nav>
+  <div class="container">
+    <header>
+      <nav>
+        <ul>
+          <li> <a href="index.html">Mi lista</a> </li>
+          <li> <a href="itemsToList.html">Añadir productos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Lista de la compra</h1>
+
+  </div>
+
+  <span>
+    <i class="fa-solid fa-circle-plus"></i>
+    2/4 comprados
+  </span>
+
+  <section class="formulario">
+    <h2>Añadir articulo</h2>
+
+    <form action="index.html" method="post">
       <ul>
-        <li><a href="index.html">Mi lista</a></li>
-        <li><a href="itemsToList.html">Añadir productos</a></li>
+        <li>
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="nombre_producto">
+        </li>
+        <li>
+          <label for="mail">Precio</label>
+          <input type="number" id="precio" name="precio_producto">
+        </li>
+
       </ul>
-    </nav>
-  </header>
-  <p>Añadir productos compra</p>
+    </form>
+
+  </section>
+
 </body>
 
 </html>
